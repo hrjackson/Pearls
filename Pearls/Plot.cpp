@@ -24,7 +24,7 @@ void Plot::circle(std::complex<double> centre, double radius,
 	int rad = radius*scale;
 	int centreX = centre.real()*scale;
 	int centreY = centre.imag()*scale;
-	cv::circle(image, origin+Point(centreX, centreY), rad, colour, -1);
+	cv::circle(image, origin+Point(centreY, centreX), rad, colour, -1);
 };
 
 void Plot::changePosition(std::complex<double> point){
