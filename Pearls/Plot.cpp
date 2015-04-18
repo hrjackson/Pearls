@@ -7,11 +7,11 @@
 
 #include "Plot.h"
 
-Plot::Plot(int width, int height, Point origin, int scale)
+Plot::Plot(int width, int height, Point origin, int scale, const Scalar& colour)
 :width(width), height(height), origin(origin), scale(scale),
  currentPos(origin){
 	// Origin is in original scale, scale sets pixels per unit
-	image = Mat::zeros( height, width, CV_8UC3 );
+	image = Mat::Mat( height, width, CV_8UC3, colour );
 
 };
 

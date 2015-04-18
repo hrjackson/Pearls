@@ -26,7 +26,7 @@ private:
 	int scale;
 	Point currentPos;
 public:
-	Plot(int width, int height, Point origin, int scale);
+	Plot(int width, int height, Point origin, int scale, const Scalar& colour);
 	virtual ~Plot();
 	void circle(std::complex<double> centre, double radius, const Scalar& colour);
 	void line(std::complex<double> point, double thickness, const Scalar& colour);

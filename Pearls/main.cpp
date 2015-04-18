@@ -37,11 +37,11 @@ const Scalar colScale(int level, int maxLevel);
 int main() {
 
 
-    int width = 5000;
-    int height = 4000;
+    int width = 2880*5;
+    int height = 1800*5;
     int scale = height*0.28;
     int maxLevel = 14;
-    Plot pl(width, height, Point(width/2, height/2), scale);
+    Plot pl(width, height, Point(width/2, height/2), scale, Scalar(10,10,0));
     
     /*
     double s = 0.005;
@@ -81,7 +81,7 @@ int main() {
     
     //pl.show();
     pl.output("output.jpg");
-    cv::waitKey( 0 );
+    //cv::waitKey( 0 );
     return 0;
 }
 
