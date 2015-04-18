@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6DB3AD1AE15A9000F6DE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB3AC1AE15A9000F6DE8D /* main.cpp */; };
+		BA6DB3B21AE15AE200F6DE8D /* MobiusTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB3B11AE15AE200F6DE8D /* MobiusTest.cpp */; };
+		BA6DB3B31AE15B1000F6DE8D /* Plot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA770F901AE1441900EE6DAE /* Plot.cpp */; };
+		BA6DB3B41AE15B1400F6DE8D /* Mobius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA770F8E1AE1441900EE6DAE /* Mobius.cpp */; };
+		BA770F881AE1431000EE6DAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA770F871AE1431000EE6DAE /* main.cpp */; };
+		BA770F921AE1441900EE6DAE /* Mobius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA770F8E1AE1441900EE6DAE /* Mobius.cpp */; };
+		BA770F931AE1441900EE6DAE /* Plot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA770F901AE1441900EE6DAE /* Plot.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA6DB3A81AE15A9000F6DE8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BA770F821AE1431000EE6DAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA6DB3AA1AE15A9000F6DE8D /* PearlsTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PearlsTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6DB3AC1AE15A9000F6DE8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA6DB3B11AE15AE200F6DE8D /* MobiusTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MobiusTest.cpp; sourceTree = "<group>"; };
+		BA6DB3B71AE15BC800F6DE8D /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		BA770F841AE1431000EE6DAE /* Pearls */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pearls; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA770F871AE1431000EE6DAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA770F8E1AE1441900EE6DAE /* Mobius.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mobius.cpp; sourceTree = "<group>"; };
+		BA770F8F1AE1441900EE6DAE /* Mobius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobius.h; sourceTree = "<group>"; };
+		BA770F901AE1441900EE6DAE /* Plot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plot.cpp; sourceTree = "<group>"; };
+		BA770F911AE1441900EE6DAE /* Plot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plot.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6DB3A71AE15A9000F6DE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA770F811AE1431000EE6DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6DB3AB1AE15A9000F6DE8D /* PearlsTest */ = {
+			isa = PBXGroup;
+			children = (
+				BA6DB3AC1AE15A9000F6DE8D /* main.cpp */,
+				BA6DB3B71AE15BC800F6DE8D /* catch.hpp */,
+				BA6DB3B11AE15AE200F6DE8D /* MobiusTest.cpp */,
+			);
+			path = PearlsTest;
+			sourceTree = "<group>";
+		};
+		BA770F7B1AE1431000EE6DAE = {
+			isa = PBXGroup;
+			children = (
+				BA770F861AE1431000EE6DAE /* Pearls */,
+				BA6DB3AB1AE15A9000F6DE8D /* PearlsTest */,
+				BA770F851AE1431000EE6DAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA770F851AE1431000EE6DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA770F841AE1431000EE6DAE /* Pearls */,
+				BA6DB3AA1AE15A9000F6DE8D /* PearlsTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA770F861AE1431000EE6DAE /* Pearls */ = {
+			isa = PBXGroup;
+			children = (
+				BA770F871AE1431000EE6DAE /* main.cpp */,
+				BA770F8E1AE1441900EE6DAE /* Mobius.cpp */,
+				BA770F8F1AE1441900EE6DAE /* Mobius.h */,
+				BA770F901AE1441900EE6DAE /* Plot.cpp */,
+				BA770F911AE1441900EE6DAE /* Plot.h */,
+			);
+			path = Pearls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6DB3A91AE15A9000F6DE8D /* PearlsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6DB3B01AE15A9000F6DE8D /* Build configuration list for PBXNativeTarget "PearlsTest" */;
+			buildPhases = (
+				BA6DB3A61AE15A9000F6DE8D /* Sources */,
+				BA6DB3A71AE15A9000F6DE8D /* Frameworks */,
+				BA6DB3A81AE15A9000F6DE8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PearlsTest;
+			productName = PearlsTest;
+			productReference = BA6DB3AA1AE15A9000F6DE8D /* PearlsTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		BA770F831AE1431000EE6DAE /* Pearls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA770F8B1AE1431000EE6DAE /* Build configuration list for PBXNativeTarget "Pearls" */;
+			buildPhases = (
+				BA770F801AE1431000EE6DAE /* Sources */,
+				BA770F811AE1431000EE6DAE /* Frameworks */,
+				BA770F821AE1431000EE6DAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pearls;
+			productName = Pearls;
+			productReference = BA770F841AE1431000EE6DAE /* Pearls */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA770F7C1AE1431000EE6DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = n/a;
+				TargetAttributes = {
+					BA6DB3A91AE15A9000F6DE8D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BA770F831AE1431000EE6DAE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BA770F7F1AE1431000EE6DAE /* Build configuration list for PBXProject "Pearls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA770F7B1AE1431000EE6DAE;
+			productRefGroup = BA770F851AE1431000EE6DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA770F831AE1431000EE6DAE /* Pearls */,
+				BA6DB3A91AE15A9000F6DE8D /* PearlsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6DB3A61AE15A9000F6DE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6DB3B31AE15B1000F6DE8D /* Plot.cpp in Sources */,
+				BA6DB3B21AE15AE200F6DE8D /* MobiusTest.cpp in Sources */,
+				BA6DB3B41AE15B1400F6DE8D /* Mobius.cpp in Sources */,
+				BA6DB3AD1AE15A9000F6DE8D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA770F801AE1431000EE6DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA770F931AE1441900EE6DAE /* Plot.cpp in Sources */,
+				BA770F921AE1441900EE6DAE /* Mobius.cpp in Sources */,
+				BA770F881AE1431000EE6DAE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA6DB3AE1AE15A9000F6DE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA6DB3AF1AE15A9000F6DE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA770F891AE1431000EE6DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA770F8A1AE1431000EE6DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA770F8C1AE1431000EE6DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA770F8D1AE1431000EE6DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6DB3B01AE15A9000F6DE8D /* Build configuration list for PBXNativeTarget "PearlsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6DB3AE1AE15A9000F6DE8D /* Debug */,
+				BA6DB3AF1AE15A9000F6DE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA770F7F1AE1431000EE6DAE /* Build configuration list for PBXProject "Pearls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA770F891AE1431000EE6DAE /* Debug */,
+				BA770F8A1AE1431000EE6DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA770F8B1AE1431000EE6DAE /* Build configuration list for PBXNativeTarget "Pearls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA770F8C1AE1431000EE6DAE /* Debug */,
+				BA770F8D1AE1431000EE6DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA770F7C1AE1431000EE6DAE /* Project object */;
+}
